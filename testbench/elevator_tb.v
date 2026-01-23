@@ -51,14 +51,13 @@ module elevator_tb;
   // MONITOR: log trạng thái mỗi chu kỳ
   always @(posedge clk) begin
     if (!rst) begin
-      $display("[%0t] Floor=%0d (pos=%0d) | req=%b | door=%b | up=%b | dn=%b",
-               $time,
-               floor_pos_real,
-               floor_pos,
-               floor_req,
-               door_open,
-               moving_up,
-               moving_down);
+          $display("[%0t] pos=%0d | req=%b | door=%b | up=%b | dn=%b",
+             $time,
+             floor_pos,
+             floor_req,
+             door_open,
+             moving_up,
+             moving_down);
     end
   end
 
