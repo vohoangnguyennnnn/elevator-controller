@@ -7,9 +7,11 @@ The objective is to verify the correctness of the FSM behavior using waveform an
 
 ---
 
-## 2. RTL Schematic
+## 2. RTL Schematic (Reference)
 
-The following schematic illustrates the synthesized RTL structure of the elevator controller, including the FSM, counters, and control logic.
+The synthesized RTL schematic is provided for reference only.
+Functional correctness of the design is validated through
+RTL simulation and waveform analysis.
 
 ![RTL Schematic](images/elevator_schematic.png)
 
