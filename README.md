@@ -61,9 +61,11 @@ Simulation covers the following scenarios:
 - Downward movement
 - Multiple simultaneous floor requests
 
-Detailed RTL schematic and waveform results are provided in:
+Detailed waveform analysis and functional verification results are provided in:
 
 📄 **[`docs/Report.md`](docs/Report.md)**
+
+(The synthesized schematic is included for reference only.)
 
 ---
 
